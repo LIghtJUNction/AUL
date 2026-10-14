@@ -1,0 +1,7 @@
+# This is the original AUL reference repository.
+# A copied independent declaration does not make a downstream fork independent.
+schema_version = 1
+license = "LicenseRef-AUL-1.0-draft.1"
+repository = "https://github.com/LIghtJUNction/AUL"
+mode = "independent"
+upstream = "https://github.com/LIghtJUNction/AUL"

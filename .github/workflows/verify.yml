@@ -1,0 +1,15 @@
+name: Verify AUL source
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+      - name: Verify checksums and draft metadata
+        run: python3 scripts/check_manifest.py

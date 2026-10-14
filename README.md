@@ -32,6 +32,10 @@ AUL makes the preferred upstream feedback loop legible to both people and develo
 
 This repository includes [agent-facing guidance](AGENTS.example.md), [implementation notes](DESIGN-NOTES.md), [24 review cases](REVIEW-CASES.md) and [references](SOURCES.md).
 
+## Verify a release
+
+Run `python3 scripts/check_manifest.py` to verify tracked license text, translations, examples, and documentation against [MANIFEST.json](MANIFEST.json). CI runs the same checks on push and pull requests. These checks test package integrity, **not** legal enforceability.
+
 ## Status and feedback
 
 **Status: draft.** License enforceability, multi-author consent, third-party compatibility, required private-change disclosures, jurisdiction-specific effects, and the exact OSI implications remain review topics. Please [open an issue](https://github.com/LIghtJUNction/AUL/issues) with a concrete case or propose improved wording in a pull request. Security-sensitive information must use an appropriate private route.

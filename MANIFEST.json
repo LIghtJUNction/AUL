@@ -6,17 +6,23 @@
   "legal_review_performed": false,
   "osi_approved": false,
   "files": {
-    "AGENTS.example.md": "ac5c26b4ae640fc1efcb94165f7addb56dacee337fe587d9b1862e53d5cf322f",
-    "DESIGN-NOTES.md": "8327f4462bf4dab2675deca1544239445d588c1550b8798d99cc6b9845890340",
-    "LICENSE.txt": "f6956923906f16ded0358f0b8205844d1ee9971c14f86e0ab2c28be21c65d604",
-    "LICENSE.zh-CN.md": "6adcc3afe78b936ecdb63c2c7ae13a48c91c37f936a411716ed9e25e0a462771",
-    "README.md": "557d3dbef27de3728dcb527e884be45b0403cee12315b5ca8ccc0cf076ae6345",
-    "REVIEW-CASES.md": "b989fb03173a013295ad39021fd7b5137240476f4b98e710f39dcaa0199c5824",
-    "SOURCES.md": "4481fb855604f1c5d70d6ef68f3fbe0b8afc03d500b9fdba3105c7c66d88e428",
-    "examples/CONTRIBUTION-STATUS.json": "527c716b629f17a64f13c4666c0c57bed9a2447e4188ea6fb3c0d87dcbd945a2",
-    "examples/UPSTREAM.follow.toml": "6fabbf690cb8d1fe8fb7458a259bd4e498d0ddc3bb897c458462c697ced8300c",
-    "examples/UPSTREAM.independent.toml": "3b43ecc555df800b3e81c8a5e64350f54bd729caaa4ec301852ca5167fa1fc60"
+    ".github/workflows/verify.yml": "78475c98b1a9386f7dd5ddb497a7f6ef3f9805712a9f8a6d0c107225929206e0",
+    "AGENTS.example.md": "cfdcb340bbec2745ba16d5aebe808ccf5408ccb45e85ae37c89a1460ae28f6de",
+    "AGENTS.md": "12b84d1353aea0bec1a6aa685d1d18901a1d8019c9936beca668ed2001cab580",
+    "DESIGN-NOTES.md": "2871ca74552b622a8f4dbe037a47cb52b994b26e36693273e406f8065103f4d0",
+    "LICENSE.txt": "f77611fea2f30ab8011beacbafb4a4bedf20dbf443ce046e1eff340176c6eded",
+    "LICENSE.zh-CN.md": "efaebddb5904acef81feba590dbf714b6ac7b7dac757c4d2b87c5c308dc1612a",
+    "README.md": "682d10e71a9a0f37d18eab740574c3979437f0f5a08aeb405fd4dba5a33488c4",
+    "README.zh-CN.md": "34437362ae1e2058e1cefde9daccdf1d0e1563103b07adba28b506454806dfd6",
+    "REVIEW-CASES.md": "98a5480acf02aa9f6b901b8a98af2795df652db15398972e3f15f4b08b330f08",
+    "SOURCES.md": "d2e04ad9ea6d49088d3e5b7efaf035f15e1b86d51f0fc638790917f08af58588",
+    "UPSTREAM.toml": "e85fda1e018bbe1b16a1a73f6098279d2e58e162400e447a2815a07e23658913",
+    "examples/CONTRIBUTION-STATUS.json": "30e39e92aa01774e5534011482e3d403642cdb4ee00e140551b4b0ee05e4eec1",
+    "examples/UPSTREAM.follow.toml": "8d8080534541c2b05698748c7af98a7cc536fbec087fa94ca3cb3ed63dce3f6a",
+    "examples/UPSTREAM.independent.toml": "9548ddea96aff616225eded65f0a78ab7412816e715d16ef0fe28a0eeffb57e8",
+    "scripts/check_manifest.py": "bae8386c7f2e00605d45090fd7e63f46d625118567b2c50177a1349885a8ead5"
   },
   "mechanical_checks_passed": 38,
-  "mechanical_checks_scope": "File format, draft identifier, example consistency, selected explicit safeguards, and archive integrity. Not legal validity or semantic equivalence."
+  "mechanical_checks_scope": "The original first-draft package passed 38 format/consistency checks. This repository now also verifies each listed file's SHA-256 via scripts/check_manifest.py. No legal validity or semantic equivalence is asserted.",
+  "repository": "https://github.com/LIghtJUNction/AUL"
 }
