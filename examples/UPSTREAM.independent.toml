@@ -1,0 +1,11 @@
+# Example only. The project owner must authorize an independence election.
+# Copy to UPSTREAM.toml before distributing the independent project.
+# A new fork that copies this file has NOT automatically elected independence.
+schema_version = 1
+license = "LicenseRef-AUL-1.0-draft.1"
+repository = "https://code.example/downstream/project"
+source_repository = "https://code.example/source/project"
+mode = "independent"
+upstream = "https://code.example/downstream/project"
+# Actual authorization/election date; examples must not be backdated.
+# elected_at = "2026-10-15T12:00:00Z"

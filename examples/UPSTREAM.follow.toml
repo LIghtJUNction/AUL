@@ -1,0 +1,13 @@
+# Example only. Replace all example values before use.
+# Copy to UPSTREAM.toml in the adopting project.
+# This file records project identity and a choice; it cannot amend AUL.
+schema_version = 1
+license = "LicenseRef-AUL-1.0-draft.1"
+repository = "https://code.example/downstream/project"
+source_repository = "https://code.example/source/project"
+mode = "follow"
+upstream = "https://code.example/source/project"
+# Optional routes. Verify the actual upstream policy before sending anything.
+# issues = "https://code.example/source/project/issues"
+# changes = "https://code.example/source/project/pulls"
+# security = "Use the verified private route in the upstream SECURITY.md."

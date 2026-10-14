@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "license": "LicenseRef-AUL-1.0-draft.1",
+  "example_only": true,
+  "repository": "https://code.example/downstream/project",
+  "upstream": "https://code.example/source/project",
+  "mode": "follow",
+  "items": [
+    {
+      "id": "local-example-1",
+      "kind": "improvement",
+      "status": "pending",
+      "reference": null,
+      "reason": "missing_publication_authorization",
+      "operator_action": "Review the local patch and authorize or arrange an allowed submission.",
+      "license_deadline_paused": null,
+      "deadline_note": "A session blocker alone does not pause the operator deadline."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Agent Upstream License",
+  "version": "1.0-draft.1",
+  "status": "complete-first-draft-for-review",
+  "license_identifier": "LicenseRef-AUL-1.0-draft.1",
+  "legal_review_performed": false,
+  "osi_approved": false,
+  "files": {
+    "AGENTS.example.md": "ac5c26b4ae640fc1efcb94165f7addb56dacee337fe587d9b1862e53d5cf322f",
+    "DESIGN-NOTES.md": "8327f4462bf4dab2675deca1544239445d588c1550b8798d99cc6b9845890340",
+    "LICENSE.txt": "f6956923906f16ded0358f0b8205844d1ee9971c14f86e0ab2c28be21c65d604",
+    "LICENSE.zh-CN.md": "6adcc3afe78b936ecdb63c2c7ae13a48c91c37f936a411716ed9e25e0a462771",
+    "README.md": "557d3dbef27de3728dcb527e884be45b0403cee12315b5ca8ccc0cf076ae6345",
+    "REVIEW-CASES.md": "b989fb03173a013295ad39021fd7b5137240476f4b98e710f39dcaa0199c5824",
+    "SOURCES.md": "4481fb855604f1c5d70d6ef68f3fbe0b8afc03d500b9fdba3105c7c66d88e428",
+    "examples/CONTRIBUTION-STATUS.json": "527c716b629f17a64f13c4666c0c57bed9a2447e4188ea6fb3c0d87dcbd945a2",
+    "examples/UPSTREAM.follow.toml": "6fabbf690cb8d1fe8fb7458a259bd4e498d0ddc3bb897c458462c697ced8300c",
+    "examples/UPSTREAM.independent.toml": "3b43ecc555df800b3e81c8a5e64350f54bd729caaa4ec301852ca5167fa1fc60"
+  },
+  "mechanical_checks_passed": 38,
+  "mechanical_checks_scope": "File format, draft identifier, example consistency, selected explicit safeguards, and archive integrity. Not legal validity or semantic equivalence."
+}
