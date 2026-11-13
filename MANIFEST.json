@@ -6,7 +6,7 @@
   "legal_review_performed": false,
   "osi_approved": false,
   "files": {
-    ".github/workflows/verify.yml": "78475c98b1a9386f7dd5ddb497a7f6ef3f9805712a9f8a6d0c107225929206e0",
+    ".github/workflows/verify.yml": "1cb2f84217e64750e7e9c8e76beb4db1d4bab7063342869273fb15caef96e11c",
     "AGENTS.example.md": "cfdcb340bbec2745ba16d5aebe808ccf5408ccb45e85ae37c89a1460ae28f6de",
     "AGENTS.md": "12b84d1353aea0bec1a6aa685d1d18901a1d8019c9936beca668ed2001cab580",
     "DESIGN-NOTES.md": "2871ca74552b622a8f4dbe037a47cb52b994b26e36693273e406f8065103f4d0",
